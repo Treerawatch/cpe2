@@ -4,7 +4,7 @@ pipeline {
           stage('Source') {
                steps {
                     git branch: 'master',
-                        url: 'https://github.com/treerawatch/cpe2.git'
+                        url: 'https://github.com/Treerawatch/cpe2.git'
                }
           }
           stage('Build') {
